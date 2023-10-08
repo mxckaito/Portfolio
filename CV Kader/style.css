@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+}
+
+.header-info {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-end;
+    padding-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 750px;
+}
+
+.left, .right {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.section-header {
+    border-bottom: 1px solid #ccc;
+}
+
+.left ul, .right ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#kontak ul li a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
